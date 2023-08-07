@@ -1,5 +1,5 @@
 // this function creates the SVG and appends it to the element you give to it
-function initClock(elt, color = '#0ff', backgroundColor = 'none') {
+function initClock(elt, color = '#0ff', backgroundColor = 'none', dateTime = new Date()) {
 	let timeObj = {
 		numberPathsD: {
 			topM: "M 8 4 L 16 4 L 18 6 L 16 8 L 8 8 L 6 6 Z",
@@ -67,7 +67,7 @@ function initClock(elt, color = '#0ff', backgroundColor = 'none') {
 	};
 
 	// it's a piece of cake to make a pretty date
-	const now = new Date();
+	const now = dateTime;
 	// now.setHours(11);
 	// now.setMinutes(59);
 	// now.setSeconds(56);
