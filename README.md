@@ -1,7 +1,7 @@
 # svg-clock
 An svg-only digital clock. Call one lightweight function on page load and allow the animations to do their thang! No silly event-listeners, timeouts, nada
 
-<img src="High noon example" title="noon.svg" height="100px">
+<img src="noon.svg" title="High noon example" height="100px">
 
 ## Dependencies
 
